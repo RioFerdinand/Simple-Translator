@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Translate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <p>LnTranslate</p>
+    </div>
+    <div class="content">
+        <div class="card">
+            <div class="option">
+                <select id="fromLanguage">
+                    <option value="en">English</option>
+                    <option value="id">Indonesian</option>
+                </select>
+                <span>to</span>
+                <select id="toLanguage">
+                    <option value="id">Indonesian</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="text">
+                <textarea id="inputText" rows="5" placeholder="Enter text"></textarea>
+            </div>
+            <button>Translate</button>
+            <div class="translation">
+                <textarea id="translatedText" rows="5" placeholder="Translation" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>LnT Frontend Project</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.header {
+    border-radius: 0px 0px 30px 30px;
+    background-color: #3972A8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+.card {
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 500px;
+    max-width: 90%;
+}
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+span {
+    margin-top: 10px;
+}
+.text, .translation {
+    margin-bottom: 20px;
+}
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+button {
+    margin-bottom: 10px;
+    background-color: #3972A8;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: white;
+    color: #3972A8;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #3972A8;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px 30px 0px 0px;
+}
